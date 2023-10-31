@@ -1,0 +1,127 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bé tập tính</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid reset-mg">
+        <div class="row">
+            <div class="col-3"></div>
+
+            <div class="col-9 no-padding">
+                <div class="main">
+                    <h1 class="title">Bé tập tính</h1>
+                </div>
+
+
+            </div>
+            <!-- <div class="col-1"></div> -->
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-9 col-5-support">
+                <div class="container-fluid reset-mg flex-ad">
+
+                    <!-- -----------HANG 1-------------- -->
+                    <div class="row">
+                        <div class="col-sm-12 reset-mg">
+                            <div class="input-mr">
+                                <div class="row line-mg">
+
+
+                                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+                                        <label for="text">Số thứ nhất</label>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-3 col-sm-3 col-support">
+                                        <input id="num-1" type="text">
+                                    </div>
+
+                                    <div class="col-auto">
+                                        <div class="group-radio">
+                                            <div class="radio-option">
+                                                <input class="margin-input jf-margin-ver2 custom-radio" type="radio"
+                                                    name="option" id="cong" value="1">
+                                                <label class="jf-margin checkmark" for="cong">Cộng</label>
+                                            </div>
+
+                                            <div class="radio-option">
+                                                <input type="radio" name="option" value="2">
+                                                <label class="jf-margin" for="text">Trừ</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ----------------HANG 2------------------ -->
+                                <div class="row line-mg">
+
+                                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+                                        <label for="text">Số thứ hai</label>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-3 col-sm-3 col-support">
+                                        <input id="num-2" type="text">
+                                    </div>
+
+                                    <div class="col-auto">
+                                        <div class="group-radio">
+                                            <div class="radio-option">
+                                                <input class="margin-input jf-margin-ver2" type="radio" name="option"
+                                                    value="3">
+                                                <label class="jf-margin" for="text">Nhân</label>
+                                            </div>
+                                            <div class="radio-option">
+                                                <input type="radio" name="option" value="4">
+                                                <label class="jf-margin" for="text">Chia</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <!-- --------------------HANG 3 ------------------- -->
+                                <div class="row line-mg">
+                                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+                                        <label for="text">Kết quả</label>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-3 col-sm-3 col-support">
+                                        <input class="output-result" id="result" type="" readonly>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="bt margin-input jf-margin-ver2">Tính</button>
+                                    </div>
+                                </div>
+
+                                <div class="row line-mg">
+                                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+                                        <label for="text">Thông báo</label>
+                                    </div>
+                                    <div class="col-auto col-support">
+                                        <p id="thong-bao"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ------------------------HANG 4---------------------- -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js">
+
+    </script>
+</body>
+
+</html>

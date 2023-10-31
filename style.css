@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 31px;
+    background: url(https://c4.wallpaperflare.com/wallpaper/582/469/111/baby-girl-sleeping-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.row {
+    padding-left: 0px;
+}
+
+.main {
+    position: relative;
+    /* top: 20vh; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.title {
+
+    margin-bottom: 45px;
+    font-weight: bold;
+    font-size: 53px;
+}
+
+.form-number {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+
+.form-number>label {
+    margin-right: 10px;
+}
+
+.form-number>input {
+    margin-right: 10px;
+}
+
+.jf-margin {
+    margin-left: 5px;
+    margin-right: 13px;
+}
+
+.group-radio {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.radio-option {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bt {
+    border: 1px #333 solid;
+    width: 70px;
+    text-align: center;
+    height: 39px;
+}
+
+.margin-input {
+    margin-left: 30px;
+}
+
+.jf-margin-ver2 {
+    margin-left: 10px;
+}
+
+.line-mg {
+    margin-bottom: 20px;
+}
+
+.reset-mg {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+input {
+    height: 40px;
+}
+
+.result {
+    font-weight: bolder;
+}
+
+.thong-bao {
+    color: red;
+}
+
+#num-1,
+#num-2,
+.output-result {
+    width: 95%;
+    height: 45px;
+}
+
+
+#thong-bao {}
+
+.col-support {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.col-5-support {
+    padding-right: 0px;
+}
+
+.bt {
+    width: 90px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --form-control-color: rgb(1, 12, 27);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+.cong-tru {
+    display: flex;
+    justify-content: flex-start;
+}
+
+body {
+    margin: 0;
+}
+
+form {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.form-control {
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+}
+
+.form-control+.form-control {
+    margin-top: 1em;
+}
+
+.form-control:focus-within {
+    color: var(--form-control-color);
+}
+
+input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+
+    font: inherit;
+    color: currentColor;
+    width: 26px;
+    height: 26px;
+    border: 1.5px solid currentColor;
+    border-radius: 50%;
+    transform: translateY(+30%);
+
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+.input-mr {
+    margin-right: 35px;
+}
+
+/* .flex-ad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+.no-padding {
+    padding-left: 0px;
+}
+
+.col-final {
+    width: 100;
+    position: relative;
+}
